@@ -1,0 +1,126 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding: 40px;
+}
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+@media screen and (min-width: 550px) {
+  .feedback-container {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .feedback-container {
+    width: 65%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .feedback-container {
+    width: 50%;
+  }
+}
+.feedback-question {
+  font-size: 20px;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .feedback-question {
+    font-size: 30px;
+  }
+}
+.emojis-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+@media screen and (min-width: 768px) {
+  .emojis-container {
+    justify-content: space-evenly;
+  }
+}
+.each-emoji-container {
+  display: flex;
+  flex-direction: column;
+}
+.emoji-img {
+  height: 60px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-img {
+    height: 70px;
+  }
+}
+.emoji-name {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-name {
+    font-size: 18px;
+  }
+}
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+@media screen and (min-width: 450px) {
+  .thankyou-container {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .thankyou-container {
+    padding: 40px 10%;
+    width: 65%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .thankyou-container {
+    width: 50%;
+  }
+}
+.love-emoji {
+  height: 55px;
+  width: 70px;
+  margin: 10px;
+}
+.thank-you-text {
+  font-size: 23px;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .thank-you-text {
+    font-size: 25px;
+  }
+}
+.thank-you-response {
+  font-size: 17px;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .thank-you-response {
+    font-size: 19px;
+  }
+}
